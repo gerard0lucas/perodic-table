@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.f-block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+   margin-top: 20px;
+}
+.lu,.lr{
+display: flex;
+gap: 10px;
+}
+.lu div,.lr div{
+    width: 3vw;
+    height:3vw;
+background-color: #80a738;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.s{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+.s1 div,.s2 div{
+    width: 3vw;
+    height:3vw;
+    background-color: #ad6271;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.s1,.s2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.s-block,.d-block,.p-block{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+.slno div{
+    width: 3vw;
+    height:3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.slno{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.elements{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+.d, .p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pl{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.index{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.index div{
+    width: 3vw;
+    height:3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.pl div{
+    width: 3vw;
+    height:3vw;
+    background-color: #c1dc4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pl > :first-child {
+    background: #ad6271;
+  }
+.d div{
+    width: 3vw;
+    height:3vw;
+    background-color: #437eea;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.p div{
+    width: 3vw;
+    height:3vw;
+    background-color: #c1dc4c;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
